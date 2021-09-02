@@ -1,3 +1,13 @@
+ul {
+    padding-bottom: 10px;
+    font-style: italic; 
+
+}
+
+li{
+    text-align: left;
+}
+
 body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
