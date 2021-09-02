@@ -128,7 +128,13 @@ body{
     display: inline-block;
     margin: 5px 9px;
     text-align: center;
-    background-color:  rgb(255, 177, 148);
+    background-color: rgb(255, 177, 148);
+}
+.image-perfil{
+    width: 140px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 10px;
 }
 
 .service-content{
