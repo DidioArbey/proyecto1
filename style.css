@@ -1,20 +1,10 @@
-ul {
-    padding-bottom: 10px;
-    font-style: italic; 
-
-}
-
-li{
-    text-align: left;
-}
-
 body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
-    width: 100%;
+    width: 1200px;
     background-color: #888888;
     height: 2000px;
     -ms-flex-item-align: center;
@@ -93,13 +83,6 @@ body{
     background-color: gainsboro;
 }
 
-.section-3{
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: coral;
-}
 
 .footer{
     height: 200px;
@@ -136,21 +119,6 @@ body{
     background-color: rgb(255, 177, 148);
 }
 
-.col-6{
-    width: 16%;
-    height: 430px;
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: rgb(255, 177, 148);
-}
-.image-perfil{
-    width: 140px;
-    height: 160px;
-    border-radius: 50%;
-    margin: 10px;
-}
 
 .service-content{
     padding: 0.5em 0;
@@ -250,3 +218,40 @@ hr{
     text-decoration: underline;
     font-weight: bold;
 }
+
+
+/*--------Modificación Sección 3 Eliana------*/
+.section-3{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
+ul {
+    padding-bottom: 10px;
+    font-style: italic; 
+
+}
+
+li{
+    text-align: left;
+}
+
+.col-6{
+    width: 16%;
+    height: 430px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(255, 177, 148);
+}
+.image-perfil{
+    width: 140px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 10px;
+}
+/*----------------------------------------*/
