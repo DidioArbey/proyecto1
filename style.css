@@ -220,3 +220,23 @@ hr{
     text-decoration: underline;
     font-weight: bold;
 }
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin:5px 5px 5px 5px;
+    color:white;
+}
+
+.item1{
+    text-align:center ;
+}
+
+.enlaces{
+    color:rgb(145, 125, 125);
+    text-decoration: none;
+}
+
+.enlaces:hover{
+    color:white;
+}
