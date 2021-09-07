@@ -92,8 +92,8 @@ body{
     height: 200px;
     background-color: yellowgreen;
     bottom: 0px;
-    /* position: fixed; */
-    /* width: 1200px; */
+    /*position: fixed; */
+    /*width: 1200px; */
 }
 
 .section-text{
@@ -219,4 +219,28 @@ hr{
 .main-menu__link:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+.nombres{
+    margin-left: 20px;
+}
+
+.links{
+margin-left: 60px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    margin: 5px 5px 5px 5px;
+    color:white;
+}
+
+.enlaces{
+    color: grey;
+    text-decoration: none;
+}
+
+.enlaces:hover{
+    color:white;
 }
